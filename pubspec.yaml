@@ -1,0 +1,504 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  
+  
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  flutter_lints: ^2.0.1
+  flutter_bloc: ^8.1.2
+  rxdart: ^0.27.7
+  flutter_secure_storage: ^8.0.0
+  dio: ^5.1.2
+  #introduction_screen: ^1.0.9
+  flutter_svg: ^2.0.5
+  equatable: ^2.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/vklogo.png
+    - assets/page-1/images/warrior.png
+    - assets/page-1/images/rectangle-1.png
+    - assets/page-1/images/rectangle-1909123575.png
+    - assets/page-1/images/rectangle-1909123595.png
+    - assets/page-1/images/group-1434.png
+    - assets/page-1/images/rectangle-1-G2f.png
+    - assets/page-1/images/icon-action-reorder.png
+    - assets/page-1/images/rectangle-1-WtT.png
+    - assets/page-1/images/rectangle-3.png
+    - assets/page-1/images/group-1434-YwD.png
+    - assets/page-1/images/address-icon.png
+    - assets/page-1/images/telegramlogo.png
+    - assets/page-1/images/component-1.png
+    - assets/page-1/images/rectangle-1909123593-bg.png
+    - assets/page-1/images/viberlogo.png
+    - assets/page-1/images/battery-full-sharp.png
+    - assets/page-1/images/rectangle-55.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/vector-zFd.png
+    - assets/page-1/images/vector-k9h.png
+    - assets/page-1/images/icon-notification-wifi.png
+    - assets/page-1/images/vector-gRH.png
+    - assets/page-1/images/rectangle-1-9CF.png
+    - assets/page-1/images/trophy-outline.png
+    - assets/page-1/images/group-1233.png
+    - assets/page-1/images/component-1-jbh.png
+    - assets/page-1/images/vector-LaX.png
+    - assets/page-1/images/vector-3jq.png
+    - assets/page-1/images/icon-social-notificationsnone.png
+    - assets/page-1/images/vector-Wuy.png
+    - assets/page-1/images/vector-2NX.png
+    - assets/page-1/images/group-1233-tLB.png
+    - assets/page-1/images/group-1431.png
+    - assets/page-1/images/vector-ktB.png
+    - assets/page-1/images/group-1432.png
+    - assets/page-1/images/vector-5SK.png
+    - assets/page-1/images/vector-ZsH.png
+    - assets/page-1/images/trophy-outline-ZVD.png
+    - assets/page-1/images/group-1434-ya3.png
+    - assets/page-1/images/group-1433.png
+    - assets/page-1/images/vector-AeX.png
+    - assets/page-1/images/vector-h8f.png
+    - assets/page-1/images/battery-full-sharp-cWX.png
+    - assets/page-1/images/vector-MDD.png
+    - assets/page-1/images/vector-5uu.png
+    - assets/page-1/images/map_image.png
+    - assets/page-1/images/vector-RTy.png
+    - assets/page-1/images/component-1-xD1.png
+    - assets/page-1/images/vector-5Lf.png
+    - assets/page-1/images/rectangle-4.png
+    - assets/page-1/images/vector-xUT.png
+    - assets/page-1/images/unnamed-3-1-TRD.png
+    - assets/page-1/images/rectangle-3-yeT.png
+    - assets/page-1/images/group-1233-uHD.png
+    - assets/page-1/images/group-1431-2cj.png
+    - assets/page-1/images/group-1432-j5D.png
+    - assets/page-1/images/rectangle-3-oPq.png
+    - assets/page-1/images/icon-social-notificationsnone-pVh.png
+    - assets/page-1/images/rectangle-1909123575-7jh.png
+    - assets/page-1/images/vector-mXZ.png
+    - assets/page-1/images/group-1433-fN3.png
+    - assets/page-1/images/icon-notification-wifi-xrw.png
+    - assets/page-1/images/icon-social-notificationsnone-syu.png
+    - assets/page-1/images/group-1431-CFV.png
+    - assets/page-1/images/vector-ijd.png
+    - assets/page-1/images/battery-full-sharp-onK.png
+    - assets/page-1/images/group-1432-dmM.png
+    - assets/page-1/images/vector-9Uo.png
+    - assets/page-1/images/group-1433-DVu.png
+    - assets/page-1/images/vector-HFy.png
+    - assets/page-1/images/vector-bGf.png
+    - assets/page-1/images/vector-eEw.png
+    - assets/page-1/images/vector-NRq.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/rectangle-56.png
+    - assets/page-1/images/group-1434-3qD.png
+    - assets/page-1/images/rectangle-4-xBV.png
+    - assets/page-1/images/trophy-outline-Mqd.png
+    - assets/page-1/images/vector-4V9.png
+    - assets/page-1/images/battery-full-sharp-rAw.png
+    - assets/page-1/images/icon-notification-wifi-cfm.png
+    - assets/page-1/images/component-1-8PD.png
+    - assets/page-1/images/component-1-3FH.png
+    - assets/page-1/images/vector-V4X.png
+    - assets/page-1/images/vector-zjM.png
+    - assets/page-1/images/group-1434-nWo.png
+    - assets/page-1/images/icon-social-notificationsnone-5uM.png
+    - assets/page-1/images/group-1430.png
+    - assets/page-1/images/vector-KVm.png
+    - assets/page-1/images/group-QdZ.png
+    - assets/page-1/images/icon-notification-wifi-9aj.png
+    - assets/page-1/images/group-4XV.png
+    - assets/page-1/images/vector-E7M.png
+    - assets/page-1/images/chatbubble-ellipses-outline.png
+    - assets/page-1/images/rectangle-1909123588.png
+    - assets/page-1/images/group-1432-Ud9.png
+    - assets/page-1/images/vector-gGb.png
+    - assets/page-1/images/group-1233-K8X.png
+    - assets/page-1/images/rectangle-4-CRZ.png
+    - assets/page-1/images/vector-Hsy.png
+    - assets/page-1/images/facebooklogo.png
+    - assets/page-1/images/rectangle-1-7Ss.png
+    - assets/page-1/images/alert-circle-outline.png
+    - assets/page-1/images/group-MFH.png
+    - assets/page-1/images/group-Uzo.png
+    - assets/page-1/images/rectangle-1909123578.png
+    - assets/page-1/images/icon-social-notificationsnone-DiK.png
+    - assets/page-1/images/component-1-ZsH.png
+    - assets/page-1/images/unnamed-3-1-6jD.png
+    - assets/page-1/images/vector-kmh.png
+    - assets/page-1/images/rectangle-3-k2F.png
+    - assets/page-1/images/vector-KaT.png
+    - assets/page-1/images/vector-8Jw.png
+    - assets/page-1/images/vector-3Ws.png
+    - assets/page-1/images/rectangle-4-4G3.png
+    - assets/page-1/images/group-1233-zqq.png
+    - assets/page-1/images/vector-fAj.png
+    - assets/page-1/images/battery-full-sharp-CVy.png
+    - assets/page-1/images/vector-hHm.png
+    - assets/page-1/images/group-1430-mwR.png
+    - assets/page-1/images/group-5eb.png
+    - assets/page-1/images/rectangle-1909123576.png
+    - assets/page-1/images/vector-DZm.png
+    - assets/page-1/images/group-1433-wEs.png
+    - assets/page-1/images/group-GH9.png
+    - assets/page-1/images/group-1432-nmH.png
+    - assets/page-1/images/rectangle-1-KWK.png
+    - assets/page-1/images/vector-f8F.png
+    - assets/page-1/images/group-1432-qo9.png
+    - assets/page-1/images/vector-1c7.png
+    - assets/page-1/images/unnamed-3-1-diB.png
+    - assets/page-1/images/group-1431-139.png
+    - assets/page-1/images/rectangle-1909123587.png
+    - assets/page-1/images/vector-mAT.png
+    - assets/page-1/images/icon-notification-wifi-sej.png
+    - assets/page-1/images/rectangle-1909123587-Myu.png
+    - assets/page-1/images/vector-YeP.png
+    - assets/page-1/images/vector-LMq.png
+    - assets/page-1/images/vector-ri7.png
+    - assets/page-1/images/rectangle-1909123598.png
+    - assets/page-1/images/vector-QzX.png
+    - assets/page-1/images/icon-notification-wifi-mab.png
+    - assets/page-1/images/vector-QfV.png
+    - assets/page-1/images/component-1-dKH.png
+    - assets/page-1/images/vector-RXH.png
+    - assets/page-1/images/icon-social-notificationsnone-xWo.png
+    - assets/page-1/images/vector-h4w.png
+    - assets/page-1/images/unnamed-3-1-1fq.png
+    - assets/page-1/images/group-1233-icB.png
+    - assets/page-1/images/battery-full-sharp-A3u.png
+    - assets/page-1/images/rectangle-1909123586.png
+    - assets/page-1/images/rectangle-1909123586-Nhh.png
+    - assets/page-1/images/vector-M55.png
+    - assets/page-1/images/icon-notification-wifi-H2T.png
+    - assets/page-1/images/component-1-K3Z.png
+    - assets/page-1/images/vector-aT5.png
+    - assets/page-1/images/rectangle-1909123600.png
+    - assets/page-1/images/vector-pRh.png
+    - assets/page-1/images/battery-full-sharp-qhM.png
+    - assets/page-1/images/group-1430-k3d.png
+    - assets/page-1/images/rectangle-1-a3d.png
+    - assets/page-1/images/rectangle-1-XFH.png
+    - assets/page-1/images/rectangle-1909123575-FGP.png
+    - assets/page-1/images/vector-5AB.png
+    - assets/page-1/images/group-1432-NKd.png
+    - assets/page-1/images/group-uST.png
+    - assets/page-1/images/vector-oGw.png
+    - assets/page-1/images/icon-social-notificationsnone-JGj.png
+    - assets/page-1/images/group-1432-uv3.png
+    - assets/page-1/images/vector-tbD.png
+    - assets/page-1/images/vector-CSo.png
+    - assets/page-1/images/rectangle-3-TWj.png
+    - assets/page-1/images/rectangle-1909123588-gtB.png
+    - assets/page-1/images/rectangle-1909123587-Dco.png
+    - assets/page-1/images/vector-2QB.png
+    - assets/page-1/images/rectangle-4-RsH.png
+    - assets/page-1/images/component-1-tDh.png
+    - assets/page-1/images/vector-kMh.png
+    - assets/page-1/images/group-1432-ZjH.png
+    - assets/page-1/images/vector-n4B.png
+    - assets/page-1/images/icon-notification-wifi-jXH.png
+    - assets/page-1/images/icon-social-notificationsnone-snT.png
+    - assets/page-1/images/vector-Zyu.png
+    - assets/page-1/images/vector-TRd.png
+    - assets/page-1/images/battery-full-sharp-fkw.png
+    - assets/page-1/images/rectangle-1909123604.png
+    - assets/page-1/images/rectangle-1-7i3.png
+    - assets/page-1/images/rectangle-1909123602.png
+    - assets/page-1/images/group-1430-3uV.png
+    - assets/page-1/images/rectangle-1909123603.png
+    - assets/page-1/images/rectangle-1909123601.png
+    - assets/page-1/images/vector-sAT.png
+    - assets/page-1/images/vector-E1R.png
+    - assets/page-1/images/component-1-P7q.png
+    - assets/page-1/images/group-1432-6FV.png
+    - assets/page-1/images/vector-HsH.png
+    - assets/page-1/images/vector-EzP.png
+    - assets/page-1/images/rectangle-1-5Du.png
+    - assets/page-1/images/vector-fEB.png
+    - assets/page-1/images/rectangle-3-ueK.png
+    - assets/page-1/images/group-zcT.png
+    - assets/page-1/images/icon-notification-wifi-rLK.png
+    - assets/page-1/images/battery-full-sharp-vgj.png
+    - assets/page-1/images/icon-social-notificationsnone-KGX.png
+    - assets/page-1/images/battery-full-sharp-6hq.png
+    - assets/page-1/images/vector-Tf1.png
+    - assets/page-1/images/component-1-dHD.png
+    - assets/page-1/images/group-1432-Tq5.png
+    - assets/page-1/images/vector-4pj.png
+    - assets/page-1/images/group-1233-XhM.png
+    - assets/page-1/images/vector-WYK.png
+    - assets/page-1/images/vector-wgX.png
+    - assets/page-1/images/vector-TBR.png
+    - assets/page-1/images/vector-tA7.png
+    - assets/page-1/images/vector-BSB.png
+    - assets/page-1/images/vector-nQs.png
+    - assets/page-1/images/vector-Wh9.png
+    - assets/page-1/images/vector-Hv3.png
+    - assets/page-1/images/icon-notification-wifi-mco.png
+    - assets/page-1/images/vector-UoM.png
+    - assets/page-1/images/icon-social-notificationsnone-KZ5.png
+    - assets/page-1/images/rectangle-1-5jq.png
+    - assets/page-1/images/ff19caa727f128d182be8e3ec185f0d-1.png
+    - assets/page-1/images/vector-MKq.png
+    - assets/page-1/images/component-1-knw.png
+    - assets/page-1/images/battery-full-sharp-3NT.png
+    - assets/page-1/images/vector-svB.png
+    - assets/page-1/images/icon-notification-wifi-YKd.png
+    - assets/page-1/images/vector-BL7.png
+    - assets/page-1/images/vector-Hz3.png
+    - assets/page-1/images/vector-BdM.png
+    - assets/page-1/images/group-1432-xKu.png
+    - assets/page-1/images/icon-social-notificationsnone-xZy.png
+    - assets/page-1/images/vector-Tj1.png
+    - assets/page-1/images/group-1233-eFu.png
+    - assets/page-1/images/rectangle-1-UG3.png
+    - assets/page-1/images/vector-qyV.png
+    - assets/page-1/images/vector-YRh.png
+    - assets/page-1/images/vector-iPD.png
+    - assets/page-1/images/vector-EDH.png
+    - assets/page-1/images/rectangle-4-VDm.png
+    - assets/page-1/images/ellipse-5.png
+    - assets/page-1/images/ellipse-bg.png
+    - assets/page-1/images/icon-notification-wifi-9C7.png
+    - assets/page-1/images/vector-vs5.png
+    - assets/page-1/images/vector-5G7.png
+    - assets/page-1/images/vector-KWj.png
+    - assets/page-1/images/group-1432-7wR.png
+    - assets/page-1/images/ellipse-5-uDu.png
+    - assets/page-1/images/vector-1Aj.png
+    - assets/page-1/images/vector-nHh.png
+    - assets/page-1/images/group-1233-rZ1.png
+    - assets/page-1/images/vector-sK1.png
+    - assets/page-1/images/vector-72T.png
+    - assets/page-1/images/component-1-9Dm.png
+    - assets/page-1/images/vector-iAP.png
+    - assets/page-1/images/battery-full-sharp-J7D.png
+    - assets/page-1/images/rectangle-1-2zo.png
+    - assets/page-1/images/ellipse-5-RNb.png
+    - assets/page-1/images/vector-gpK.png
+    - assets/page-1/images/ellipse-5-LvX.png
+    - assets/page-1/images/vector-fcf.png
+    - assets/page-1/images/icon-social-notificationsnone-Wom.png
+    - assets/page-1/images/vector-zsm.png
+    - assets/page-1/images/vector-fpF.png
+    - assets/page-1/images/vector-5hm.png
+    - assets/page-1/images/vector-3Qo.png
+    - assets/page-1/images/icon-social-notificationsnone-Mjh.png
+    - assets/page-1/images/vector-KuM.png
+    - assets/page-1/images/component-1-W3M.png
+    - assets/page-1/images/battery-full-sharp-Ddu.png
+    - assets/page-1/images/vector-uTH.png
+    - assets/page-1/images/icon-notification-wifi-tmZ.png
+    - assets/page-1/images/vector-bE3.png
+    - assets/page-1/images/icon-action-assignment.png
+    - assets/page-1/images/vector-pYT.png
+    - assets/page-1/images/vector-he3.png
+    - assets/page-1/images/group-1432-tqZ.png
+    - assets/page-1/images/vector-rRH.png
+    - assets/page-1/images/vector-c8B.png
+    - assets/page-1/images/image-38.png
+    - assets/page-1/images/unnamed-3-1-PAT.png
+    - assets/page-1/images/icon-action-assignment-zeF.png
+    - assets/page-1/images/vector-5Bq.png
+    - assets/page-1/images/vector-qz3.png
+    - assets/page-1/images/vector-22w.png
+    - assets/page-1/images/group-1432-Eq1.png
+    - assets/page-1/images/vector-wij.png
+    - assets/page-1/images/vector-gkB.png
+    - assets/page-1/images/rectangle-1-4dZ.png
+    - assets/page-1/images/icon-notification-wifi-3Ss.png
+    - assets/page-1/images/icon-social-notificationsnone-e1q.png
+    - assets/page-1/images/rectangle-1-32T.png
+    - assets/page-1/images/vector-JnP.png
+    - assets/page-1/images/vector-Xns.png
+    - assets/page-1/images/vector-n59.png
+    - assets/page-1/images/battery-full-sharp-K9u.png
+    - assets/page-1/images/vector-1oR.png
+    - assets/page-1/images/vector-wh5.png
+    - assets/page-1/images/vector-yhd.png
+    - assets/page-1/images/group-1233-Kwq.png
+    - assets/page-1/images/component-1-3sq.png
+    - assets/page-1/images/icon-social-notificationsnone-oHD.png
+    - assets/page-1/images/group-1233-7QX.png
+    - assets/page-1/images/vector-pGB.png
+    - assets/page-1/images/vector-93Z.png
+    - assets/page-1/images/vector-ebD.png
+    - assets/page-1/images/group-1432-hto.png
+    - assets/page-1/images/component-1-wrK.png
+    - assets/page-1/images/vector-Ydy.png
+    - assets/page-1/images/icon-notification-wifi-NWw.png
+    - assets/page-1/images/vector-Smh.png
+    - assets/page-1/images/vector-xJ7.png
+    - assets/page-1/images/vector-yET.png
+    - assets/page-1/images/rectangle-1-6BD.png
+    - assets/page-1/images/icon-navigation-check.png
+    - assets/page-1/images/battery-full-sharp-GQT.png
+    - assets/page-1/images/vector-PFR.png
+    - assets/page-1/images/vector-m8P.png
+    - assets/page-1/images/auto-group-ol3l.png
+    - assets/page-1/images/vector-A19.png
+    - assets/page-1/images/icon-navigation-check-t9R.png
+    - assets/page-1/images/vector-NqH.png
+    - assets/page-1/images/icon-navigation-check-MYX.png
+    - assets/page-1/images/rectangle-1-bg.png
+    - assets/page-1/images/rectangle-1-bg-HjH.png
+    - assets/page-1/images/rectangle-1-bg-Em1.png
+    - assets/page-1/images/vector-hPR.png
+    - assets/page-1/images/vector-T3R.png
+    - assets/page-1/images/document-text-outline.png
+    - assets/page-1/images/vector-MkF.png
+    - assets/page-1/images/vector-KcX.png
+    - assets/page-1/images/vector-Pij.png
+    - assets/page-1/images/vector-uXy.png
+    - assets/page-1/images/vector-Pqd.png
+    - assets/page-1/images/vector-oLF.png
+    - assets/page-1/images/icon-social-notificationsnone-Pjh.png
+    - assets/page-1/images/group-1432-xN7.png
+    - assets/page-1/images/vector-oKZ.png
+    - assets/page-1/images/auto-group-3cqq.png
+    - assets/page-1/images/battery-full-sharp-a9q.png
+    - assets/page-1/images/rectangle-1-bg-ZuM.png
+    - assets/page-1/images/vector-5aT.png
+    - assets/page-1/images/icon-social-notificationsnone-UPd.png
+    - assets/page-1/images/rectangle-1-Ags.png
+    - assets/page-1/images/vector-6Vq.png
+    - assets/page-1/images/vector-7LP.png
+    - assets/page-1/images/vector-tC3.png
+    - assets/page-1/images/vector-X23.png
+    - assets/page-1/images/icon-notification-wifi-UY3.png
+    - assets/page-1/images/vector-bcf.png
+    - assets/page-1/images/ellipse-5-JX5.png
+    - assets/page-1/images/vector-eqq.png
+    - assets/page-1/images/vector-xsM.png
+    - assets/page-1/images/vector-4Eo.png
+    - assets/page-1/images/component-1-4NX.png
+    - assets/page-1/images/vector-JRH.png
+    - assets/page-1/images/document-attach-outline.png
+    - assets/page-1/images/vector-6M9.png
+    - assets/page-1/images/vector-jFH.png
+    - assets/page-1/images/vector-3qM.png
+    - assets/page-1/images/ellipse-5-2RZ.png
+    - assets/page-1/images/vector-T31.png
+    - assets/page-1/images/vector-fTq.png
+    - assets/page-1/images/vector-8MR.png
+    - assets/page-1/images/icon-social-notificationsnone-pEX.png
+    - assets/page-1/images/icon-notification-wifi-uMd.png
+    - assets/page-1/images/group-1432-RRV.png
+    - assets/page-1/images/vector-jB9.png
+    - assets/page-1/images/document-attach-outline-TbR.png
+    - assets/page-1/images/vector-2ps.png
+    - assets/page-1/images/document-text-outline-YGb.png
+    - assets/page-1/images/component-1-Pcw.png
+    - assets/page-1/images/vector-7mD.png
+    - assets/page-1/images/vector-Au9.png
+    - assets/page-1/images/battery-full-sharp-yFH.png
+    - assets/page-1/images/vector-n6F.png
+    - assets/page-1/images/vector-mpf.png
+    - assets/page-1/images/vector-3wq.png
+    - assets/page-1/images/vector-EyZ.png
+    - assets/page-1/images/icon-social-notificationsnone-o4o.png
+    - assets/page-1/images/vector-Gyy.png
+    - assets/page-1/images/rectangle-1909123607.png
+    - assets/page-1/images/rectangle-1-oJB.png
+    - assets/page-1/images/vector-bHu.png
+    - assets/page-1/images/vector-vTV.png
+    - assets/page-1/images/auto-group-dnvg.png
+    - assets/page-1/images/vector-qYP.png
+    - assets/page-1/images/vector-81h.png
+    - assets/page-1/images/vector-4ao.png
+    - assets/page-1/images/icon-action-assignment-CRR.png
+    - assets/page-1/images/events.png
+    - assets/page-1/images/vector-nbm.png
+    - assets/page-1/images/vector-6CT.png
+    - assets/page-1/images/vector-uJs.png
+    - assets/page-1/images/vector-RPH.png
+    - assets/page-1/images/research-units.png
+    - assets/page-1/images/rectangle-1909123606.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
